@@ -4,7 +4,9 @@
 \name{usdeaths}
 \alias{usdeaths}
 \title{Accidental deaths in USA}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercises 2.3 and
@@ -20,5 +22,6 @@ Monthly accidental deaths in USA.
 plot(usdeaths)
 seasonplot(usdeaths)
 tsdisplay(usdeaths)
+
 }
 \keyword{datasets}

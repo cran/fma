@@ -4,7 +4,9 @@
 \name{elec}
 \alias{elec}
 \title{Electricity production}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapters 1--2, 7.
@@ -19,5 +21,6 @@ Australian monthly electricity production: Jan 1956 -- Aug 1995.
 plot(elec)
 seasonplot(elec)
 tsdisplay(elec)
+
 }
 \keyword{datasets}

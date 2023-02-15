@@ -4,7 +4,9 @@
 \name{expenditure}
 \alias{expenditure}
 \title{Expenditure}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 2.
@@ -17,5 +19,6 @@ Expenditure for 12 supermarket customers.
 }
 \examples{
 hist(expenditure)
+
 }
 \keyword{datasets}

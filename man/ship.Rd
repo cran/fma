@@ -4,7 +4,9 @@
 \name{ship}
 \alias{ship}
 \title{Electric can opener shipments}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 4. Exercise
@@ -18,5 +20,6 @@ Electric can opener shipments.
 }
 \examples{
 plot(ship)
+
 }
 \keyword{datasets}

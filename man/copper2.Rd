@@ -4,7 +4,9 @@
 \name{copper2}
 \alias{copper2}
 \title{Copper prices}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 9.
@@ -17,5 +19,6 @@ Yearly copper prices for 14 consecutive years (in constant 1997 dollars).
 }
 \examples{
 plot(copper2)
+
 }
 \keyword{datasets}

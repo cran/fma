@@ -4,11 +4,13 @@
 \name{advert}
 \alias{advert}
 \title{Sales and advertising expenditure}
-\format{Data frame containing the following columns:
+\format{
+Data frame containing the following columns:
 \describe{
   \item{advert}{Monthly Advertising expenditure}
   \item{sales}{Monthly sales volume}
-}}
+}
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercise 6.7.
@@ -22,5 +24,6 @@ Monthly sales and advertising expenditure for an automotive parts company.
 }
 \examples{
 plot(sales ~ advert, data=advert)
+
 }
 \keyword{datasets}

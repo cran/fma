@@ -4,7 +4,9 @@
 \name{invent15}
 \alias{invent15}
 \title{Inventory demand}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercise 2.6. Also
@@ -18,5 +20,6 @@ Inventory demand for product E15.
 }
 \examples{
 plot(invent15)
+
 }
 \keyword{datasets}

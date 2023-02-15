@@ -4,7 +4,9 @@
 \name{motion}
 \alias{motion}
 \title{Employment figures in the motion picture industry}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercise 7.9.
@@ -20,6 +22,7 @@ Jan 1955 -- Dec 1970.
 plot(motion)
 seasonplot(motion)
 tsdisplay(motion)
+
 }
 \references{
 "Employment and earnings, US 1909--1978", Department of Labor,

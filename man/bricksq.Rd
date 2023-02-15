@@ -4,7 +4,9 @@
 \name{bricksq}
 \alias{bricksq}
 \title{Quarterly clay brick production}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 1 and
@@ -20,5 +22,6 @@ Australian quarterly clay brick production: 1956--1994.
 plot(bricksq)
 seasonplot(bricksq)
 tsdisplay(bricksq)
+
 }
 \keyword{datasets}

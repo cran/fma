@@ -4,7 +4,9 @@
 \name{condmilk}
 \alias{condmilk}
 \title{Condensed milk}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercise 7.5.
@@ -19,5 +21,6 @@ Manufacturer's Stocks of evaporated and sweetened condensed milk.
 plot(condmilk)
 seasonplot(condmilk)
 tsdisplay(condmilk)
+
 }
 \keyword{datasets}

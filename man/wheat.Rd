@@ -4,7 +4,9 @@
 \name{wheat}
 \alias{wheat}
 \title{Wheat prices}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 9.
@@ -17,5 +19,6 @@ Wheat prices in constant 1996 pounds: 1264--1996.
 }
 \examples{
 plot(wheat)
+
 }
 \keyword{datasets}

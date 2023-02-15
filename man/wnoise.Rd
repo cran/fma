@@ -4,7 +4,9 @@
 \name{wnoise}
 \alias{wnoise}
 \title{White noise time series}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chpater 7.
@@ -17,5 +19,6 @@ White noise time series with 36 values.
 }
 \examples{
 tsdisplay(wnoise)
+
 }
 \keyword{datasets}

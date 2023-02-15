@@ -4,7 +4,9 @@
 \name{jcars}
 \alias{jcars}
 \title{Motor vehicle production}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercise 2.8.
@@ -21,6 +23,7 @@ plot(jcars)
 log.jcars <- BoxCox(jcars,0)
 jcars.f <- holt(log.jcars)
 plot(jcars.f)
+
 }
 \references{
 \emph{World motor vehicle data}, Motor Vehicle Manufacturers of

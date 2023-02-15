@@ -4,7 +4,9 @@
 \name{productC}
 \alias{productC}
 \title{Sales of product C}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 1.
@@ -17,5 +19,6 @@ Sales of product C (a lubricant sold in large containers).
 }
 \examples{
 plot(productC)
+
 }
 \keyword{datasets}

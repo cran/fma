@@ -4,7 +4,9 @@
 \name{sheep}
 \alias{sheep}
 \title{Sheep population}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercise 7.6.
@@ -17,6 +19,7 @@ Sheep population (in millions) of England and Wales: 1867--1939.
 }
 \examples{
 tsdisplay(sheep)
+
 }
 \references{
 Kendall (1976).

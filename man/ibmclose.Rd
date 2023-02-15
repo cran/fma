@@ -4,7 +4,9 @@
 \name{ibmclose}
 \alias{ibmclose}
 \title{Closing IBM stock price}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercise 7.2.
@@ -17,6 +19,7 @@ Daily closing IBM stock price.
 }
 \examples{
 tsdisplay(ibmclose)
+
 }
 \references{
 Box, Jenkins and Reinsell (1994) \emph{Time series analysis:

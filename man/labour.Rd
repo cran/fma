@@ -4,7 +4,9 @@
 \name{labour}
 \alias{labour}
 \title{Civilian labour force}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercise 3.8.
@@ -21,5 +23,6 @@ plot(labour)
 labour.stl <- stl(labour,10)
 plot(labour.stl)
 monthplot(labour.stl$time.series[,1],type="h")
+
 }
 \keyword{datasets}

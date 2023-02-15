@@ -4,7 +4,9 @@
 \name{telephone}
 \alias{telephone}
 \title{Telephone cost}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 9.
@@ -17,5 +19,6 @@ Telephone cost in San Francisco, New York: 1915--1996.
 }
 \examples{
 plot(telephone)
+
 }
 \keyword{datasets}

@@ -4,7 +4,9 @@
 \name{airpass}
 \alias{airpass}
 \title{Monthly Airline Passenger Numbers 1949-1960}
-\format{A monthly time series, in thousands.}
+\format{
+A monthly time series, in thousands.
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercise 2.4,
@@ -21,6 +23,7 @@ airline passengers (1949--1960).
 plot(airpass)
 seasonplot(airpass)
 tsdisplay(airpass)
+
 }
 \references{
 Box, Jenkins and Reinsell (1994) \emph{Time series analysis:

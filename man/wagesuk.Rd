@@ -4,7 +4,9 @@
 \name{wagesuk}
 \alias{wagesuk}
 \title{Real daily wages}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 9.
@@ -13,9 +15,10 @@ methods and applications}, John Wiley & Sons: New York. Chapter 9.
 wagesuk
 }
 \description{
-Real daily wages in pound, England: 1260--1994.
+Real daily wages in pounds, England: 1260--1994.
 }
 \examples{
 plot(wagesuk)
+
 }
 \keyword{datasets}

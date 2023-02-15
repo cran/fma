@@ -4,7 +4,9 @@
 \name{writing}
 \alias{writing}
 \title{Sales of printing and writing paper}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 7.
@@ -19,5 +21,6 @@ francs): Jan 1963 -- Dec 1972.
 \examples{
 tsdisplay(writing)
 seasonplot(writing)
+
 }
 \keyword{datasets}

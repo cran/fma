@@ -4,7 +4,9 @@
 \name{schizo}
 \alias{schizo}
 \title{Perceptual speed scores}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Exercise 8.8.
@@ -20,6 +22,7 @@ expected that this drug would reduce perceptual speed.
 }
 \examples{
 plot(schizo)
+
 }
 \references{
 McCleary and Hay (1980).

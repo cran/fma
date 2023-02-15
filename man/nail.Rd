@@ -4,7 +4,9 @@
 \name{nail}
 \alias{nail}
 \title{Nail prices}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 9.
@@ -17,5 +19,6 @@ Nail prices, 1800--1996 in constant dollars.
 }
 \examples{
 plot(nail)
+
 }
 \keyword{datasets}

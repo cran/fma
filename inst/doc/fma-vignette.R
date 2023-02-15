@@ -4,7 +4,8 @@ knitr::opts_chunk$set(
   comment = "#>"
 )
 library(fma)
-library(tidyverse)
+library(ggplot2)
+library(dplyr)
 
 ## -----------------------------------------------------------------------------
 beer %>%

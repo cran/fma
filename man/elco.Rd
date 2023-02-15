@@ -4,7 +4,9 @@
 \name{elco}
 \alias{elco}
 \title{Sales of Elco's laser printers}
-\format{Time series data}
+\format{
+Time series data
+}
 \source{
 Makridakis, Wheelwright and Hyndman (1998) \emph{Forecasting:
 methods and applications}, John Wiley & Sons: New York. Chapter 10.
@@ -17,5 +19,6 @@ Sales of Elco's laser printers: 1992--1998.
 }
 \examples{
 plot(elco)
+
 }
 \keyword{datasets}
